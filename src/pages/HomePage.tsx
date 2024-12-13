@@ -4,6 +4,8 @@ import Founder from '../components/homepage/Founder'
 import Impact from '../components/homepage/Impact'
 import Newsletter from '../components/homepage/Newsletter'
 import Portfolio from '../components/homepage/PortfolioSection'
+import ProgramsSection from '../components/homepage/ProgramsSection'
+import CallToAction from '../components/homepage/CallToAction'
 
 const HomePage: React.FC = () => {
   return (
@@ -13,6 +15,8 @@ const HomePage: React.FC = () => {
         <Impact />
         <Newsletter />
         <Portfolio />
+        <ProgramsSection />
+        <CallToAction />
     </div>
   )
 }
