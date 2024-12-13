@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <div className="container mx-auto">
-      <footer className="bg-black text-white py-4 px-6 flex flex-col md:flex-row justify-between items-center">
+    <div className="container mx-auto bg-black">
+      <footer className="text-white py-4 px-6 flex flex-col md:flex-row justify-between items-center">
         {/* Left Section */}
         <div className="flex items-center space-x-4">
           <img
